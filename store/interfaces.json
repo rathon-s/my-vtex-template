@@ -1,5 +1,14 @@
 {
   "countdown": {
     "component": "Countdown"
+  },
+  "footer-new":{
+    "component": "Footer"
+  },
+  "footer-mobile":{
+    "component": "FooterMobile"
+  },
+  "contact-us":{
+    "component":"ContactUs"
   }
 }

@@ -1,0 +1,126 @@
+.footer__box {
+    background-color: #F4F4F4;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1% 2% 2%;
+}
+
+.footer__container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 20%;
+    width: 100%;
+}
+
+.bottom__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    gap: 20%;
+    width: 100%;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 25%;
+}
+
+.footer__columnR {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.footer__icons__box {
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-end; */
+    gap: 10px;
+}
+
+.footer__links {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.footer__links:hover {
+    text-decoration: underline;
+}
+
+.footer__links:link {
+    text-decoration: none;
+}
+
+#footer__links {
+    text-decoration: none;
+}
+
+#footer__links:link {
+    text-decoration: none;
+}
+
+.legal__inks {
+    text-decoration: none;
+}
+
+.privacy {
+    display: flex;
+    padding-top: 1%;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__icon {
+    height: 30px;
+    z-index: 10;
+}
+
+.news__letter__input {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 80%;
+    height: 30%;
+    background-image:
+        url("data:image/svg+xml;utf8,<svg xmlns='http: //www.w3.org/2000/svg' viewBox='0 0 448 512'><<path d='M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z'/></svg>");
+
+    content: "";
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+}
+
+.input__email {
+    display: inline-block;
+    position: relative;
+    width:100%;
+}
+
+.input__email input{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width:100%;
+    border: 1px solid;
+    height: 2.5em;
+    padding-left: 10px;
+}
+
+.input__email svg {
+    width: 20px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
